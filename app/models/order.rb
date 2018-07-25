@@ -1,6 +1,5 @@
 class Order < ApplicationRecord
-  belongs_to :user
   belongs_to :basket
-  has_many :products
+  belongs_to :product
   has_many :reviews
 end
